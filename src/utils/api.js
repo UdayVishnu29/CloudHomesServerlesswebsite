@@ -1,5 +1,4 @@
-const API_BASE_URL =
-  "https://vfx6oc7gy2.execute-api.ap-south-1.amazonaws.com/prod";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
 
 // Get all properties
 export const getProperties = async () => {
