@@ -6,8 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   env: {
-    NEXT_PUBLIC_API_URL:
-      "https://vfx6oc7gy2.execute-api.ap-south-1.amazonaws.com/prod",
+    NEXT_PUBLIC_API_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL,
   },
 };
 
